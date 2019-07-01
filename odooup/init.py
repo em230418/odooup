@@ -6,7 +6,7 @@ from collections import OrderedDict
 from distutils.spawn import find_executable
 
 import click
-from clone import clone_submodule_to_target, get_vendor_target
+from .clone import clone_submodule_to_target, get_vendor_target
 
 from ._helpers import call_cmd, replace_in_file
 from ._installers import install_compose_impersonation, install_make, install_precommit
